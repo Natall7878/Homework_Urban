@@ -17,8 +17,7 @@ def is_contains(string, list_to_search):
   for i in list_to_search:
     if i.upper() in string.upper():
       return True
-    else:
-      return False
+  return False
 
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
